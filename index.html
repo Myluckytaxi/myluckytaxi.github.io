@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Lucky Taxi</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <img src="logo.jpg" alt="Logo" class="logo" />
+      <nav>
+        <ul class="menu">
+          <li><a href="#rent">Аренда авто</a></li>
+          <li><a href="#transfer">Трансферы</a></li>
+          <li><a href="#tours">Туры</a></li>
+          <li><a href="#about">О компании</a></li>
+          <li><a href="#contact">Контакты</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="langs">
+        <img src="https://flagcdn.com/w40/ge.png" alt="Geo" class="flag" />
+        <img src="https://flagcdn.com/w40/ru.png" alt="Rus" class="flag" />
+        <img src="https://flagcdn.com/w40/gb.png" alt="Eng" class="flag" />
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" style="background-image: url('main.jpg')">
+    <div class="hero-text">
+      <h1>Добро пожаловать в My Lucky Taxi</h1>
+      <p>Трансферы, аренда авто и туры по Грузии</p>
+    </div>
+    <form class="booking-form">
+      <h2>Заказ трансфера</h2>
+      <input type="text" placeholder="Пункт A" />
+      <input type="text" placeholder="Пункт B" />
+      <input type="tel" placeholder="Телефон" />
+      <button>Заказать трансфер</button>
+    </form>
+  </section>
+
+  <section id="transfer"><h2>Трансферы</h2><div class="grid">
+    <div>Аэропорт ⇄ Центр</div><div>Межгород</div><div>Поездки по Тбилиси</div><div>VIP трансферы</div>
+  </div></section>
+
+  <section id="rent"><h2>Аренда авто</h2><div class="grid">
+    <div>Hyundai Elantra</div><div>Toyota Prius</div><div>Nissan Leaf</div><div>С водителем</div>
+  </div></section>
+
+  <section id="tours"><h2>Туры</h2><div class="grid">
+    <div>Казбеги</div><div>Кахетия</div><div>Ананури</div><div>Боржоми</div>
+  </div></section>
+
+  <section id="about"><h2>О компании</h2><div class="grid">
+    <div><strong>50+</strong><br/>водителей</div>
+    <div><strong>10 лет</strong><br/>на рынке</div>
+    <div><strong>20+</strong><br/>партнёров</div>
+  </div></section>
+
+  <section id="contact"><h2>Контакты</h2>
+    <p>Телефон: <a href="tel:+995599527676">+995 599 52 76 76</a><br/>
+       Почта: <a href="mailto:myluckytaxi1@gmail.com">myluckytaxi1@gmail.com</a>
+    </p>
+    <div class="map">
+      <iframe src="https://maps.google.com/maps?q=Tbilisi&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+        frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <footer><p>© 2025 My Lucky Taxi. Все права защищены.</p></footer>
+</body>
+</html>
